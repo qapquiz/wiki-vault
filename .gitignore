@@ -1,0 +1,10 @@
+# Obsidian device-specific / volatile state — don't sync across devices
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+.trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db
