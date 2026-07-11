@@ -1,7 +1,7 @@
 ---
 title: Agentic Coding — Risks and Discipline
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-12
 type: concept
 tags: [concept, ai-ml, software, controversy, source-article]
 sources: [raw/articles/mariozechner-slowing-the-fuck-down-2026.md]
@@ -60,6 +60,14 @@ Three properties combine to make autonomous agent swarms dangerous on real codeb
 > Connects to [[llm-agent-orchestration]]: this is a critique of scaling the
 > orchestrator→worker ("army of autonomous agents") pattern on real codebases — the pattern
 > the [[advisor-strategy]] names as the "common" one. Same vocabulary, sobering field report.
+
+## A constructive counterpoint
+This page is about where AI **generation** fails. But the same tool, pointed at *existing*
+code instead of a blank page, is a powerful comprehension aid — see [[software-archaeology]].
+[[james-randall]]'s attempt to have Claude *generate* the game [[thrust-game]] from a spec
+produced unusable slop (a perfect small example of the failure mode above); yet the same
+model was extraordinary at *explaining* the original 6502 assembly. The honest picture is
+both: generation is risky, comprehension shines.
 
 ## Bottom line
 "All of this requires discipline and agency. All of this requires humans." The risk isn't
